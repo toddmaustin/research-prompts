@@ -8,6 +8,7 @@ Most prompts are written as **repeatable procedures** (clear inputs, strict outp
 
 - **`brutal-review/`** — This prompt is a **near-submission quality gate** for research papers. It is designed for the last few hours (or last day) before a deadline, when you need **high-signal triage**: what must be fixed to avoid rejection or credibility loss, vs what can be polished if time remains.
 - **`chalk-talk/`** — This prompt generates a **chalkboard-style “chalk talk” slide** for teaching a concept: bubbles/circles connected by arrows, short handwritten-style text, and a visual flow that mirrors how an instructor would explain the idea at a board.
+- **`fast-fail/`** — A **fail-fast ideation** workflow for research and engineering: generate **novel** candidate ideas, then design the **cheapest decisive tests** (hand-coded micro-tests, intrinsics/ASM, clever FPGA prototypes, minimal sims) to reach high-confidence go/no-go quickly.
 - **`email-scanner/`** — This prompt is a **daily inbox triage procedure** that uses **Gemini’s Gmail assistant** to surface the few emails you truly need to read from a high-volume inbox. It performs a **multi-pass scan** over a fixed time window (default: the last two weeks), filters out already-handled threads via a `+PROCESSED+` label, then groups the remaining candidates into priority buckets (visits, talks, reviews, letters, overdue, other). **Gemini-only** (runs in Gmail’s Gemini assistant panel).
 - **`hallucination-detector/`** — This prompt is a **second-opinion “hallucination detector”** for AI-generated content. It scans a draft for five common failure modes and reports issues **in order of urgency**, with evidence and concrete fixes. Best run on a **different vendor/model** than the one that produced the draft.
 - **`heilmeier-extractor/`** — This prompt is a **paper-reading accelerator**: it turns a typeset research paper into a structured, reviewer-ready analysis organized around the **Heilmeier Catechism** (DARPA-style questions that expose the *problem, novelty, evidence, and adoption risks*).
@@ -34,4 +35,5 @@ A few requests:
 ## License
 
 Distributed under the Apache 2.0 license, please see [`LICENSE`](LICENSE) for details.
+
 
