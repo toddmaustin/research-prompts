@@ -19,7 +19,7 @@ SETTINGS (EDIT THESE)
   - [e.g., “no em dashes”]
   - [e.g., “preserve terminology verbatim”]
 - OUTPUT_STYLE: {bullets, tables, both}
-- CONFIDENCE TAGS: {High, Medium, Low}
+- ADD CONFIDENCE TAGS: {High, Medium, Low, None}
 
 INPUTS
 I will provide:
@@ -36,7 +36,7 @@ Return exactly these sections, in this order:
 - INPUT_TYPE:
 - SCOPE:
 - CONSTRAINTS IN FORCE:
-- CONFIDENCE:
+- CONFIDENCE SETTING:
 
 2) RESULTS (ranked / structured)
 Define the main deliverable structure. Examples:
