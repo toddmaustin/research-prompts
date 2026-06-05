@@ -1,4 +1,4 @@
-# research-prompts
+# Prompts for Researchers 
 
 A small collection of **procedure-as-prompt** templates I use to integrate AI tools into a computer engineering research workflow: reading papers faster, tightening drafts near deadlines, preserving writing voice, and reducing hallucinations via cross-checking.
 
